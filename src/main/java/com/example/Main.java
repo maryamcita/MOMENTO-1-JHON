@@ -16,6 +16,7 @@ public class Main {
         System.out.println("\n=== Ejercicio 2: CuentaBancaria ===");
         CuentaBancaria cuenta = new CuentaBancaria("Maria", 500);
         cuenta.depositar(200);
+        
         System.out.println("Saldo: " + cuenta.getSaldo()); 
         cuenta.retirar(1000); 
 
